@@ -1,12 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import "../../styles/main.scss";
 
 class Header extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <p className="customClass">I am a styled para</p>
         <Link href="/">
           <a> Home </a>
         </Link>
